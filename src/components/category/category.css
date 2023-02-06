@@ -1,0 +1,109 @@
+.category{
+    padding-top: 205px;
+    background-color: rgb(250,252,253);
+    margin-bottom: 50px;
+}
+.breadcrumb-line li{
+    padding-top: 10px;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.6);
+}
+.breadcrumb-line li:hover{
+    color: rgb(254, 44, 109);
+}
+.breadcrumb-line-active{
+    color: rgb(254, 44, 109)!important;
+}
+.breadcrumb-line li::after{
+    content: ">";
+    margin: 0 10px;
+}
+.breadcrumb-line li:last-child::after{
+    display: none;
+}
+.category-content .sidebar{
+    flex: 1;
+
+}
+.category-content .content{
+    flex: 5;
+}
+.sidebar-item{
+    padding: 8px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.sub-sidebar ul li{
+    margin-left: 30px;
+    padding: 10px 0;
+}
+.sub-sidebar ul li:hover{
+    color: rgb(254, 44, 109);
+}
+.sidebar-item-active{
+    color: rgb(254, 44, 109);
+}
+.filter{
+    border: solid 1px lightgray;
+}
+.filter-item{
+    margin: 0 15px;
+}
+.filter-item span{
+    font-size: 12px;
+    cursor: pointer;
+}
+.filter-item i{
+    font-size: 12px;
+}
+.modal-filter{
+    box-shadow: 0 2px 20px rgb(0 0 0 / 20%);
+    border: solid 1px #e8e8e9;
+    border-radius: 8px;
+    padding-bottom: 15px;
+}
+
+.modal-btn{
+    display: flex;
+    justify-content: center;
+}
+.modal-btn button{
+    width: 40%;
+    padding: 10px 0;
+    margin: 0 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    transition: all 0.2s ease-in;
+}
+.btn-practice{
+    background-color: black;
+    color: white;
+}
+.btn-practice:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.btn-cancel:hover{
+    box-shadow: 0 2px 20px rgb(0 0 0 / 30%);
+}
+.product{
+    margin: 15px;
+}
+.product img{
+    width: 100%;
+}
+.product-desc{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.product-item{
+    border: solid 1px transparent;
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+}
+.product-item:hover{
+    border: solid 1px rgb(254, 44, 109);
+    scale: 0.95;
+}

@@ -1,0 +1,114 @@
+.navbar-wrapper{
+    color: black;
+    padding-top: 50px;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 998;
+}
+.navbar-wrapper hr{
+    margin: 0;
+}
+.navbar-wrapper .logo{
+    flex: 1;
+}
+.navbar-input-wrapper{
+    flex: 3;
+    border: solid 1px lightgray;
+    border-radius: 5px;
+}
+.navbar-input-wrapper > input{
+    width: 80%;
+    outline: none;
+    padding: 12px;
+    border: none;
+}
+.navbar-search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: solid 1px lightgray;
+    padding: 12px;
+    cursor: pointer;
+}
+.navbar-search i{
+    font-size: 20px;
+}
+.navbar-action .login, .navbar-action .register{
+    cursor: pointer;
+}
+.navbar-action .login:hover, .navbar-action .register:hover{
+    color: rgb(254, 44, 109);
+}
+.navbar-cart{
+    padding: 10px;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+}
+.navbar-cart:hover{
+    background-color: teal;
+    color: white;
+    cursor: pointer;
+}
+.navbar-category{
+    position: relative;
+}
+.navbar-category li{
+    cursor: pointer;
+}
+.navbar-category li:hover{
+    color: rgb(254, 44, 109);
+}
+
+
+.category-modal{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: calc(100vh - 200px);
+    width: 100vw;
+    position: absolute;
+    display: none;
+    z-index: 999;
+}
+.category-modal ul{
+    margin-top: 20px;
+}
+.category-modal li{
+    padding: 3px 0;
+    cursor: pointer;
+}
+.category-modal li:hover{
+    color: rgb(254, 44, 109);
+}
+.category-modal p{
+    margin: 0;
+}
+.shop-beauty:hover ~ .category-modal{
+    display: block!important;
+}
+
+
+
+/* Responsive */
+@media screen and (max-width: 991px) {
+    .navbar-input-wrapper{
+        margin-left: 40px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .logo{
+        display: none;
+    }
+    .navbar-input-wrapper{
+        margin-left: 0;
+    }
+    .navbar-search{
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+    .navbar-search i{
+        font-size: 16px;
+    }
+    .navbar-category li b{
+        margin: 20px 0;
+    }
+}

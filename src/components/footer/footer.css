@@ -1,0 +1,51 @@
+footer{
+    background-color: black;
+    color: rgba(255, 255, 255, 0.7);
+    padding-bottom: 10px;
+}
+footer p{
+    text-align: justify;
+}
+footer li{
+    padding: 5px 0;
+}
+footer li:hover, .socials i:hover{
+    color: rgb(254, 44, 109);
+    cursor: pointer;
+}
+.download img{
+    width: 50%;
+    object-fit: contain;
+}
+.socials i{
+    margin: 0 10px;
+    font-size: 25px;
+    transition: all 0.2s ease-in;
+}
+.copyright{
+    display: flex;
+}
+.certificate{
+    flex: 4;
+}
+.certificate p{
+    font-size: 12px;
+    margin: 0;
+}
+.certificate img{
+    width: 15%;
+    object-fit: contain;
+}
+.address{
+    flex: 1;
+}
+.address p{
+    font-size: 12px;
+    margin: 0;
+}
+/* Responsive */
+@media screen and (max-width: 991px) {
+    .copyright{
+        display: none;
+    }
+}

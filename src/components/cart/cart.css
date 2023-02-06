@@ -1,0 +1,21 @@
+.cart{
+    padding-top: 205px;
+    background-color: #F5F6F6;
+}
+.cart-list{
+    flex: 2;
+}
+.cart-action{
+    flex: 1;
+}
+.cart-item-info img{
+    width: 100px;
+    object-fit: cover;
+}
+.cart-item-info h5{
+    font-size: 14px;
+}
+.cart-info{
+    display: flex;
+    flex-direction: column;
+}

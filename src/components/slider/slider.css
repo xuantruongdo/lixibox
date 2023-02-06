@@ -1,0 +1,34 @@
+.slider-container{
+    padding-top: 205px;
+}
+.slider{
+    margin: 0 10%;
+}
+.carousel-control-btn{
+    border: none;
+    opacity: 0;
+}
+/* Responsive */
+@media screen and (max-width: 1200px) {
+    .slider-container{
+        padding-top: 230px;
+    }
+}
+@media screen and (max-width: 991px) {
+    .slider-container{
+        padding-top: 245px;
+    }
+    .slider{
+        margin: 0 5%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .slider-container{
+        padding-top: 285px;
+    }
+}
+@media screen and (max-width: 354px) {
+    .slider-container{
+        display: none;
+    }
+}

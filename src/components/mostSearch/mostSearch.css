@@ -1,0 +1,7 @@
+.most-search button{
+    border: solid 1px lightgray;
+    border-radius: 10px;
+    width: 120px;
+    height: 50px;
+    background-color: transparent;
+}

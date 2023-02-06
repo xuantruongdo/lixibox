@@ -1,0 +1,25 @@
+.announcement{
+    position: fixed;
+    width: 100vw;
+    height: 40px;
+    background-color: black;
+    line-height: 40px;
+    z-index: 999;
+}
+/* Responsive */
+
+/* ========== MEDIA QUERIES (MEDIUM DEVICES)========= */
+@media screen and (max-width: 991px) {
+    .announcement-wrapper > p{
+        display: none;
+    }
+}
+/* ========== MEDIA QUERIES (SMALL DEVICES)========= */
+/* @media screen and (max-width: 600px) {
+    header{
+        height: 100vh;
+    }
+    .header__socials, .scroll__down{
+        display: none;
+    }
+} */
